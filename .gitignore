@@ -1,0 +1,142 @@
+# =========================
+# === Python / Virtualenv ===
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# === IDE / Editor ===
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# === Distribution / Packaging ===
+# =========================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# === Logs / Database ===
+# =========================
+*.log
+*.pot
+*.sqlite3
+db.sqlite3
+celerybeat-schedule
+*.pid
+
+# =========================
+# === Unit test / Coverage ===
+# =========================
+.coverage
+.tox/
+.nox/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# =========================
+# === Jupyter / Notebooks ===
+# =========================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# =========================
+# === Environments / Config ===
+# =========================
+.env.*
+.envrc
+*.env
+config.json
+secrets.json
+credentials.json
+token.json
+
+# =========================
+# === Compiled / Temp Files ===
+# =========================
+*.so
+*.dll
+*.dylib
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# =========================
+# === Docker / Deployment ===
+# =========================
+/docker-compose.override.yml
+/.docker/
+*.tar
+*.log
+*.pid
+*.sock
+
+# =========================
+# === Data / Models / Cache ===
+# =========================
+data/
+datasets/
+.cache/
+__pycache__/
+checkpoints/
+models/
+artifacts/
+runs/
+*.h5
+*.pkl
+*.pt
+*.onnx
+*.joblib
+
+# =========================
+# === VS Code / OS ===
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+
+# =========================
+# === Docs / Reports ===
+# =========================
+docs/_build/
+target/
+*.pdf
+*.docx
+*.rtf
+*.csv
+*.xlsx
